@@ -20,7 +20,7 @@ class PizzaStoreAdapter(val mContext: Context, resId:Int, val mlist: ArrayList<P
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         var tempRow = convertView
         tempRow?.let {
-
+//
         }.let {
             tempRow = inf.inflate(R.layout.pizza_store_item, null)
         }

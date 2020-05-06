@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-<!--    왜 레이아웃크기강제? => 스피너에 크기가 적용되는지봄-->
+<!--    왜 레이아웃크기강제? => 스피너에 크기가 적용되는지봄
+         적용 됩니다.  !! -->
     <LinearLayout
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -13,10 +14,12 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/logoImg"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@mipmap/ic_launcher"/>
         <TextView
+            android:id="@+id/nameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
